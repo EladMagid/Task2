@@ -1,0 +1,28 @@
+.footer .Social-Media a{
+    
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+    height: 5rem;
+    background: transparent;
+    border: 0.2rem solid black;
+    border-radius: 25%;
+    font-size: 60px;
+    color: #000000;
+    margin: 40px;
+    transition: 0.3s;
+    transition-property: all;
+    margin-top: -70rem;
+    padding: 40px;
+    margin-bottom: 50%;
+    
+    }
+    
+    .footer .Social-Media a:hover{
+        background: var #111010;    
+        color: #b7afb7;
+        transform: scale(1.5);
+    }
+.Social-Media a i {
+    font-size: 60px;
+}

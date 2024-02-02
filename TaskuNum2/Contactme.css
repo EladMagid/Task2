@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+
+.icon i {
+    margin-right: 10px;
+    font-size: 24px;
+    color: #3498db; 
+}
+
+
+.icon h1 {
+    margin: 0;
+    font-size: 36px;
+    color: #333; 
+}
+
+.footer .Social-Media a{
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+    height: 5rem;
+    background: transparent;
+    border: .2rem solid black;
+    border-radius: 25%;
+    font-size: 60px;
+    color:#000000;
+    margin:40px;    
+    transition: 0.3s;
+    transition-property:all;
+    margin-top:-70rem; 
+    padding: 40px;
+    margin-top:30%;
+    
+    }
+    
+    .footer .Social-Media a:hover{
+        background: var #111010;    
+        color: #b7afb7;
+        transform: scale(1.5);
+    }
