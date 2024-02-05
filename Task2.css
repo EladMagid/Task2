@@ -159,6 +159,7 @@ min-height: 40vh;
 padding: 1rem 3% 2rem;
 align-items: center;
 justify-content: center;
+transition: 0.3s;
 }
 
 .HomePage{
@@ -214,6 +215,7 @@ section .footer{
 align-items: left;
 display: flex;
 justify-content: left;
+
 }
 
 .footer .Social-Media a{
@@ -228,7 +230,7 @@ border-radius: 25%;
 font-size: 50px;
 color:#000000;
 margin:40px;    
-transition: 0.3s;
+transition: 0.6s;
 transition-property:all;
 margin-top:-70rem; 
 padding: 40px;
@@ -236,7 +238,7 @@ margin-bottom:50%;
 
 }
 
-.footer .Social-Media a:hover{
+.footer a:hover{
     background: var #111010;    
     color: #b7afb7;
     transform: scale(1.5);
@@ -255,7 +257,7 @@ margin-bottom:50%;
     html,
     body {
     width: 100%;
-      height: 120%;
+      height: 100%;
       margin: 1px;
       padding: -40px;
     }
@@ -320,19 +322,28 @@ margin-bottom:50%;
     }
 
     section .footer{
-        display: flex;
-        justify-content: flex-end; 
-        align-items: flex-end;
-        }
+      align-items: left;
+      display: flex;
+      justify-content: left;
+      }
 
         .footer .Social-Media a {
-            display: inline-flex;
-            width: 3rem;
-            height: 3rem;
-            font-size: 30px;
-            padding: 20px;
-            margin: 25px;
-            margin-bottom: 200%;
+          display: inline-flex;
+          justify-content: center;
+          align-items: center;
+          width: 1rem;
+          height: 1rem;
+          background: transparent;
+          border: .2rem solid black;
+          border-radius: 25%;
+          font-size: 50px;
+          color:#000000;
+          margin:10px;    
+          transition: 0.3s;
+          transition-property:all;
+          margin-top:-70rem; 
+          padding: 30px;
+          margin-bottom:50%;
         }
 
 
@@ -367,14 +378,7 @@ margin-bottom:50%;
             right: 10%;
             background: transparent;
         }
-        body{
-            width: 100%;
-            height: auto;
-            background-size: cover;
-            background-position: center;
-            
-        }
-        
+      
   }
 
 
